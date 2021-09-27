@@ -7,4 +7,3 @@ __pycache__ - 캐시 파일
 Classification.py - 소리 분류를 위한 모듈
 HappyNewEar.sh - 프로그램의 실행 파일
 log.txt - 프로그램 실행의 로그 파일
-main.py - 
