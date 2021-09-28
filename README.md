@@ -19,6 +19,6 @@ odas.cfg - ODAS configuration file //
 
 yamnet.tflite - TensorFlow Lite용으로 변환된 머신러닝 모델 //
 
-tament_class_map.csv - 모델 결과와 출력 매핑 csv //
+yamnet_class_map.csv - 모델 결과와 출력 매핑 csv //
 
 ODAS repo. ==> https://github.com/introlab/odas
