@@ -19,7 +19,8 @@ class Classificate:
     '''
     Classificate - 소리 분류
     -----함수-----
-    equalizer(data)
+    tonumpy(data)
+    preprocess(data)
     classifier(data)
     pltshow(data)
     ----------------
@@ -88,6 +89,8 @@ class Classificate:
         소리 분류 함수
         반환값: 예상값 2개
         '''
+        data = np.delete(data,1)
+        print(len(data))
         self.model.resize_tensor_input(self.waveform_input_index, [len(data)])
         self.model.allocate_tensors()
         self.model.set_tensor(self.waveform_input_index, data)
